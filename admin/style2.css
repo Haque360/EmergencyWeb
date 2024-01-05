@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+main{
+	width: 33%;
+	margin: 50px auto;
+	display:  grid;
+	color: white;
+	grid-template-rows: repeat(3, 150px);
+	grid-template-columns: repeat(2, 150px);
+	grid-gap: 20px;
+}
+
+.doctor{ background-color: #ff4757 !important ;}
+.ward{ background-color: #2ed573 !important  ;}
+.cabin{ background-color: #1e90ff !important ;}
+.delv_room{ background-color: #5352ed !important ;}
+.icu{ background-color: #09b6bf !important ;}
+
+.btn a, .btn div{
+	text-decoration: none !important;
+	color: white !important;
+	cursor: pointer !importants;
+
+}

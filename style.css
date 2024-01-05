@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+body {
+background-color: #DBF9FC;
+}
+
+main{
+	width: 33%;
+	margin: 50px auto;
+	display:  grid;
+	color: white;
+	grid-template-rows: repeat(4, 150px);
+	grid-template-columns: repeat(4, 150px);
+	grid-gap: 20px;
+}
+
+.User{ background-color: #52eae8 !important ;}
+.Admin{ background-color: #ff4757 !important ;}
+.userreg{background-color: #2ed573  !important ;}
+
+table{
+	background-color: #DBF9FC;
+}
+
+nav{
+	background-color: #DBF9FC;
+}
+
+.btn a, .btn div{
+	text-decoration: none !important;
+	color: white !important;
+	cursor: pointer !importants;
+
+}
+carousel-inner img{
+	width: 90vw;
+	height: 90vh;
+}
+
+html,body{
+    height: 100%
+}
+

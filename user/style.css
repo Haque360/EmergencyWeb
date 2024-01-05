@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+body {
+background-color: #DBF9FC;
+}
+
+main{
+	width: 33%;
+	margin: 50px auto;
+	display:  grid;
+	color: white;
+	grid-template-rows: repeat(0, 150px);
+	grid-template-columns: repeat(0, 150px);
+	grid-gap: 20px;
+}
+
+.Hospitals{ background-color: #ff4757 !important ;}
+.Police{ background-color: #2ed573 !important  ;}
+.Fires{ background-color: #1e90ff !important ;}
+.Ambulance{ background-color: #5352ed !important ;}
+
+
+table{
+	background-color: #DBF9FC;
+}
+
+nav{
+	background-color: #DBF9FC;
+}
+
+.btn a, .btn div{
+	text-decoration: none !important;
+	color: white !important;
+	cursor: pointer !importants;
+
+}
+carousel-inner img{
+	width: 90vw;
+	height: 90vh;
+}
+
+#cot{
+	background-color: #DBF9FC;
+}
